@@ -1,7 +1,7 @@
 .container {
    
    display : grid;
-   grid-template-rows: 60vh auto auto auto auto auto;
+   grid-template-rows: 80vh auto auto auto auto auto;
  
 }
 
@@ -236,7 +236,6 @@
                shape-outside: url(img/paper-title.png);
                filter: drop-shadow(4px 4px 10px rgba(0,0,0,0.5));
            }
-
 }
 
 &__caption--content {
@@ -266,6 +265,8 @@
     border-bottom-style: dotted;
     height: 100%;
     width: 100%;
+
+
 
     &__title{
         position: relative;

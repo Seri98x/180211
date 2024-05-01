@@ -107,7 +107,7 @@ body {
 
 .container {
   display: grid;
-  grid-template-rows: 60vh auto auto auto auto auto; }
+  grid-template-rows: 80vh auto auto auto auto auto; }
 
 .title-container {
   display: grid;
@@ -388,17 +388,6 @@ body {
 #wrapper {
   animation: pulse 1s infinite; }
 
-.playButton {
-  font-size: 5rem;
-  font-weight: 300;
-  border-radius: 50px; }
-  .playButton__text {
-    background-color: #fff476;
-    border-radius: 55px;
-    color: white;
-    text-align: center;
-    display: block; }
-
 #pulsingheart {
   position: relative;
   width: 100px;
@@ -530,6 +519,8 @@ body {
     font-family: "La Belle Aurore", cursive;
     font-size: 5rem;
     display: contents; }
+  .popup2 .playButton__container {
+    background-color: #aa0000; }
   @supports (-webkit-backdrop-filter: blur(10px)) or (backdrop-filter: blur(10px)) {
     .popup2 {
       -webkit-backdrop-filter: blur(10px);
