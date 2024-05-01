@@ -87,12 +87,18 @@
     color: black;
     position: relative;
     overflow: hidden;
+  
     cursor: pointer;
 
     & > * {
         display: inline-block;
         height: 100%;
         width: 100%;
+        text-align: center;
+    }
+
+    &__text {
+      text-align: center;
     }
 
 }

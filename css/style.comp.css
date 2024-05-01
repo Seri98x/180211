@@ -371,7 +371,10 @@ body {
   .btn > * {
     display: inline-block;
     height: 100%;
-    width: 100%; }
+    width: 100%;
+    text-align: center; }
+  .btn__text {
+    text-align: center; }
 
 #wrapper {
   animation: pulse 1s infinite; }
