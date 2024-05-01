@@ -32,6 +32,8 @@
        height: 100%;
        filter: blur(8px);
        -webkit-filter: blur(8px);
+       perspective: 1000;
+       backface-visibility: hidden;
     }
     
     align-items: center;

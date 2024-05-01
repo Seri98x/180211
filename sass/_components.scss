@@ -286,13 +286,16 @@
 
   &__container{
 
-    background-color: #aa0000;
+    background-color: var(--color-primary-light);
     position: relative;
-    
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    margin-left: 30rem;
+    margin-right: 30rem;
   }
 
   &__button {
-
   }
 
 }
