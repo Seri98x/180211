@@ -29,7 +29,7 @@ const cover = document.getElementById('cover');
 
 
 // Song titles
-const songs = ['i-need-you', 'decave'];
+const songs = ['i-need-you','i-miss-you', 'decave'];
 
 // Keep track of song
 let songIndex = 0;
