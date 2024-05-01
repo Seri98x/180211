@@ -430,8 +430,8 @@ body {
   top: 0;
   left: 0;
   z-index: 9999;
-  opacity: 1;
-  visibility: visible;
+  opacity: 0;
+  visibility: hidden;
   transition: all .3s;
   padding-left: 1.5rem;
   padding-right: 1.5rem; }
@@ -502,8 +502,8 @@ body {
   opacity: 1;
   visibility: visible;
   transition: all .3s;
-  padding-left: 30rem;
-  padding-right: 30rem; }
+  padding-left: 1.5rem;
+  padding-right: 1.5rem; }
   .popup2__content {
     position: absolute;
     top: 50%;
@@ -520,7 +520,8 @@ body {
     font-size: 5rem;
     display: contents; }
   .popup2 .playButton__container {
-    background-color: #aa0000; }
+    background-color: #aa0000;
+    position: relative; }
   @supports (-webkit-backdrop-filter: blur(10px)) or (backdrop-filter: blur(10px)) {
     .popup2 {
       -webkit-backdrop-filter: blur(10px);
