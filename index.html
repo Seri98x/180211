@@ -26,6 +26,8 @@
         </ul>
     </nav>
 
+    
+
     <div class="container">
         <div class="hidden title-container">
             <div class="title-container__blur">
@@ -390,8 +392,7 @@
                 </div>
             </div>
 
-            <audio src="./music/i-need-you.mp3" id="audio"  autoplay="true"
-            muted="muted"></audio>
+            <audio src="./music/i-need-you.mp3" id="audio"  ></audio>
 
             <div class="img-container">
                 <img src="./img/i-need-you.jpg" alt="music-cover" id="cover" />
@@ -403,13 +404,24 @@
                 <button id="play" class="action-btn action-btn-big">
                     <i class="fas fa-play"></i>
                 </button>
-                <button id="next" class="action-btn">
+                <button id="next" class="action-btn" onclick="playSong()">
                     <i class="fas fa-forward"></i>
                 </button>
             </div>
         </div>
 
     </section>
+
+    <div class="popup2" id="popup2">
+
+        <div class="popup2__content">
+            <button class="btn" id="playButton" >
+                <span class="btn__visible">Start</span>
+            </button>
+
+            </div>
+        </div>
+    </div>
 
     <div class="popup" id="popup">
         <div class="popup__content">

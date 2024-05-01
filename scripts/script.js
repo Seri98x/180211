@@ -38,10 +38,11 @@ let songIndex = 0;
 // Initially load song details into DOM
 loadSong(songs[songIndex]);
 
-setTimeout(3000);
 
+const myButton = document.querySelector('#playButton');
+const popup = document.getElementsByClassName('popup2')[0];
 
-playSong();
+myButton.addEventListener("click",playSong);
 
 // Update song details
 function loadSong(song) {
@@ -55,6 +56,9 @@ function playSong() {
   musicContainer.classList.add('play');
   playBtn.querySelector('i.fas').classList.remove('fa-play');
   playBtn.querySelector('i.fas').classList.add('fa-pause');
+  popup.style.opacity = '0';
+  popup.style.visibility = 'hidden';
+
 
   audio.play();
 }
