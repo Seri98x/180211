@@ -357,9 +357,37 @@ body {
     border-radius: 20px; }
 
 .btn {
-  background-color: transparent;
+  font-size: 5rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  border-radius: 100px;
   border: none;
+  background-image: linear-gradient(to right, var(--color-primary-light), var(--color-primary-dark));
+  color: black;
+  position: relative;
+  overflow: hidden;
   cursor: pointer; }
+  .btn > * {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    transition: all .2s; }
+  .btn__visible {
+    padding-top: 5rem;
+    padding-bottom: 5rem; }
+  .btn__invisible {
+    position: absolute;
+    padding: 2rem 0;
+    left: 0;
+    top: -100%; }
+  .btn:hover {
+    background-image: linear-gradient(to left, var(--color-primary-light), var(--color-primary-dark)); }
+  .btn:hover .btn__visible {
+    transform: translateY(100%); }
+  .btn:hover .btn__invisible {
+    top: 0; }
+  .btn:focus {
+    animation: pulsate 1s infinite; }
 
 #wrapper {
   animation: pulse 1s infinite; }
@@ -464,6 +492,44 @@ body {
   .popup:target .popup__content {
     opacity: 1;
     transform: translate(-50%, -50%) scale(1); }
+
+.popup2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  opacity: 1;
+  visibility: visible;
+  transition: all .3s;
+  padding-left: 30rem;
+  padding-right: 30rem; }
+  .popup2__content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 75%;
+    background-color: #fff;
+    box-shadow: 0 2rem 4rem black;
+    border-radius: 10px;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    overflow: hidden;
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0);
+    font-family: "La Belle Aurore", cursive;
+    font-size: 5rem;
+    display: contents; }
+  @supports (-webkit-backdrop-filter: blur(10px)) or (backdrop-filter: blur(10px)) {
+    .popup2 {
+      -webkit-backdrop-filter: blur(10px);
+      backdrop-filter: blur(10px);
+      background-color: rgba(0, 0, 0, 0.3); } }
 
 .music-container {
   background-color: #fff;
