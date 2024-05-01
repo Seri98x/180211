@@ -16,6 +16,9 @@
     color: white;
     z-index: 10;
     position: relative;
+    -webkit-transform: translateZ(0);
+-webkit-backface-visibility: hidden;
+-webkit-perspective: 1000;
 
     &__blur{
     background-image: url(img/hero.png);
@@ -32,8 +35,9 @@
        height: 100%;
        filter: blur(8px);
        -webkit-filter: blur(8px);
-       perspective: 1000;
-       backface-visibility: hidden;
+       -webkit-transform: translateZ(0);
+-webkit-backface-visibility: hidden;
+-webkit-perspective: 1000;
     }
     
     align-items: center;

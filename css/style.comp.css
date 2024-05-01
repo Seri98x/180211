@@ -120,6 +120,9 @@ body {
   color: white;
   z-index: 10;
   position: relative;
+  -webkit-transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  -webkit-perspective: 1000;
   align-items: center; }
   .title-container__blur {
     background-image: url(img/hero.png);
@@ -135,8 +138,9 @@ body {
     height: 100%;
     filter: blur(8px);
     -webkit-filter: blur(8px);
-    perspective: 1000;
-    backface-visibility: hidden; }
+    -webkit-transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000; }
   .title-container--left {
     z-index: 10;
     text-align: center; }
