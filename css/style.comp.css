@@ -28,7 +28,10 @@ html {
   scroll-behavior: smooth; }
   @media only screen and (max-width: 37.5em) {
     html {
-      font-size: 30%; } }
+      font-size: 28%; } }
+  @media only screen and (max-width: 31.25em) {
+    html {
+      font-size: 25%; } }
 
 body {
   background-image: linear-gradient(to right bottom, var(--color-primary-light), var(--color-primary-dark));
