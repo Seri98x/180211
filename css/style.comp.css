@@ -109,11 +109,11 @@ body {
 
 .container {
   display: grid;
-  grid-template-rows: .5fr auto 1fr 1fr; }
+  grid-template-rows: 25% 25% 25% auto; }
 
 .title-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(25rem, auto));
   font-family: "La Belle Aurore", cursive;
   font-size: 7rem;
   border-radius: 20px;
