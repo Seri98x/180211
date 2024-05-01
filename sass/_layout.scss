@@ -7,7 +7,7 @@
 
 .title-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(25rem,auto));
+    grid-template-columns: 1fr 1fr;
     font-family: $font-display2;
     font-size: 7rem;
   
