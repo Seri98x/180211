@@ -522,8 +522,14 @@ body {
     font-size: 5rem;
     display: contents; }
   .popup2 .playButton__container {
-    background-color: #aa0000;
-    position: relative; }
+    background-color: var(--color-primary-light);
+    position: relative;
+    border-radius: 30px;
+    margin-left: 30rem;
+    margin-right: 30rem; }
+  .popup2 .playButton__text {
+    text-align: center;
+    display: block; }
   @supports (-webkit-backdrop-filter: blur(10px)) or (backdrop-filter: blur(10px)) {
     .popup2 {
       -webkit-backdrop-filter: blur(10px);

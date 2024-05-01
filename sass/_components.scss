@@ -286,13 +286,20 @@
 
   &__container{
 
-    background-color: #aa0000;
+    background-color: var(--color-primary-light);
     position: relative;
-    
+    border-radius: 30px;
+    margin-left: 30rem;
+    margin-right: 30rem;
   }
 
   &__button {
 
+  }
+
+  &__text {
+    text-align: center;
+    display: block;
   }
 
 
