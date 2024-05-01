@@ -119,7 +119,7 @@ body {
   position: relative;
   align-items: center; }
   .title-container__blur {
-    background-image: url(/../img/hero.png);
+    background-image: url(img/hero.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
