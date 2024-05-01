@@ -37,6 +37,10 @@ let songIndex = 0;
 
 // Initially load song details into DOM
 loadSong(songs[songIndex]);
+
+setTimeout(3000);
+
+
 playSong();
 
 // Update song details
