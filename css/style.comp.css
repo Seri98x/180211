@@ -109,13 +109,15 @@ body {
 
 .container {
   display: grid;
-  grid-template-rows: 25% 25% 25% auto; }
+  grid-template-rows: 1fr auto auto auto auto; }
 
 .title-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   font-family: "La Belle Aurore", cursive;
   font-size: 7rem;
+  height: 100%;
+  width: 100%;
   border-radius: 20px;
   color: white;
   z-index: 10;

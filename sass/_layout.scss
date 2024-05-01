@@ -1,7 +1,7 @@
 .container {
    
    display : grid;
-   grid-template-rows: 25% 25% 25% auto;
+   grid-template-rows: 1fr auto auto auto auto;
  
 }
 
@@ -10,7 +10,8 @@
     grid-template-columns: 1fr 1fr;
     font-family: $font-display2;
     font-size: 7rem;
-  
+    height: 100%;
+    width: 100%;
     border-radius: 20px;
     color: white;
     z-index: 10;
