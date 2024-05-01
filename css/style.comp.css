@@ -358,7 +358,6 @@ body {
 
 .btn {
   font-size: 5rem;
-  z-index: 9999;
   font-weight: 300;
   text-transform: uppercase;
   border-radius: 100px;
