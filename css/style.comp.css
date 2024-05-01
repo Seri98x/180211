@@ -636,3 +636,6 @@ body {
   height: 100%;
   width: 0%;
   transition: width 0.1s linear; }
+
+.tap-text {
+  color: #aa0000; }
