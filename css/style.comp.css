@@ -78,11 +78,9 @@ body {
 
 .swiper2 {
   position: relative;
-  width: 80%;
-  height: 50%;
+  width: 80vw;
   filter: drop-shadow(4px 4px 10px rgba(0, 0, 0, 0.5)); }
 
-\\\
 .swiper-slide {
   border-radius: 18px; }
 
@@ -109,7 +107,7 @@ body {
 
 .container {
   display: grid;
-  grid-template-rows: 1fr auto auto auto auto; }
+  grid-template-rows: 60vh auto auto auto auto auto; }
 
 .title-container {
   display: grid;
@@ -146,7 +144,6 @@ body {
       text-align: start; }
 
 .header {
-  margin-top: 20rem;
   border-top: 1px black;
   border-top-style: dotted;
   border-bottom: 1px black;
@@ -156,7 +153,9 @@ body {
   align-items: center;
   font-size: 5rem;
   font-family: "La Belle Aurore", cursive;
-  text-align: center; }
+  text-align: center;
+  height: 100%;
+  width: 100%; }
   .header__animation {
     width: 50vw;
     height: 50vh; }
@@ -169,7 +168,9 @@ body {
   text-align: center;
   border-bottom: 1px black;
   border-bottom-style: dotted;
-  margin-bottom: 10rem; }
+  margin-bottom: 10rem;
+  height: 100%;
+  width: 100%; }
   .first-section__title {
     position: relative;
     display: flex;
@@ -204,7 +205,9 @@ body {
   border-bottom: 1px black;
   border-bottom-style: dotted;
   margin-bottom: 10rem;
-  overflow: hidden; }
+  overflow: hidden;
+  height: 100%;
+  width: 100%; }
   .second-section__title {
     position: relative;
     display: flex;
@@ -243,7 +246,9 @@ body {
   border-bottom: 1px black;
   border-bottom-style: dotted;
   margin-bottom: 10rem;
-  overflow: hidden; }
+  overflow: hidden;
+  height: 100%;
+  width: 100%; }
   .third-section__title {
     position: relative;
     display: flex;
@@ -275,7 +280,9 @@ body {
   font-size: 5rem;
   text-align: center;
   border-bottom: 1px black;
-  border-bottom-style: dotted; }
+  border-bottom-style: dotted;
+  height: 100%;
+  width: 100%; }
   .fourth-section__title {
     position: relative;
     display: flex;
@@ -296,7 +303,6 @@ body {
     margin-bottom: 15rem;
     display: flex;
     justify-content: center;
-    width: 100%;
     overflow: hidden; }
   .fourth-section__caption--content {
     margin-top: 15rem;
@@ -304,10 +310,9 @@ body {
     margin-right: 10rem; }
   .fourth-section__letter-container {
     width: 100%;
-    height: 50%;
     display: flex;
     justify-content: center;
-    padding-top: 10rem; }
+    padding-top: 5rem; }
 
 .navbar__list {
   list-style: none;
@@ -536,7 +541,6 @@ body {
   border-radius: 15px;
   box-shadow: 0 20px 20px 0 rgba(252, 169, 169, 0.6);
   display: flex;
-  padding: 20px 30px;
   position: relative;
   margin: 100px 0;
   z-index: 10;

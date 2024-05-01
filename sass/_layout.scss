@@ -1,7 +1,7 @@
 .container {
    
    display : grid;
-   grid-template-rows: 1fr auto auto auto auto;
+   grid-template-rows: 60vh auto auto auto auto auto;
  
 }
 
@@ -52,7 +52,6 @@
 
 .header {
 
-    margin-top: 20rem;
     border-top: 1px black;
     border-top-style: dotted;
     border-bottom: 1px black;
@@ -63,6 +62,8 @@
     font-size: 5rem;
     font-family: $font-display2;
     text-align: center;
+    height: 100%;
+    width: 100%;
 
 
      &__animation {
@@ -86,6 +87,8 @@
     border-bottom: 1px black;
     border-bottom-style: dotted;
     margin-bottom: 10rem;
+    height: 100%;
+    width: 100%;
 
 
     &__title{
@@ -155,6 +158,8 @@
     border-bottom-style: dotted;
     margin-bottom: 10rem;
     overflow: hidden;
+    height: 100%;
+    width: 100%;
 
     &__title{
         position: relative;
@@ -212,6 +217,8 @@
     border-bottom-style: dotted;
     margin-bottom: 10rem;
     overflow: hidden;
+    height: 100%;
+    width: 100%;
 
     &__title{
         position: relative;
@@ -257,7 +264,8 @@
     text-align: center;
     border-bottom: 1px black;
     border-bottom-style: dotted;
-    
+    height: 100%;
+    width: 100%;
 
     &__title{
         position: relative;
@@ -283,7 +291,7 @@
     margin-bottom: 15rem;   
     display: flex;
     justify-content: center;
-    width: 100%;
+    
     overflow:hidden;
   }
 
@@ -299,10 +307,9 @@
 
 &__letter-container {
     width: 100%;
-    height: 50%;
     display: flex;
     justify-content: center;
-    padding-top: 10rem;
+    padding-top: 5rem;
 }
 
 
