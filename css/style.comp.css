@@ -514,8 +514,6 @@ body {
     background-color: #fff;
     box-shadow: 0 2rem 4rem black;
     border-radius: 10px;
-    display: grid;
-    grid-template-rows: auto 1fr;
     overflow: hidden;
     opacity: 0;
     transform: translate(-50%, -50%) scale(0);

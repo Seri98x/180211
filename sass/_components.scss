@@ -288,8 +288,6 @@
         background-color: $color-white;
         box-shadow: 0 2rem 4rem rgba($color-black, 2);
         border-radius: 10px;
-        display: grid;
-        grid-template-rows: auto 1fr;
         overflow: hidden;
         opacity: 0;
         transform: translate(-50%, -50%) scale(0);
