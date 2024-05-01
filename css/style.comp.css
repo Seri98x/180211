@@ -381,9 +381,11 @@ body {
 .playButton {
   font-size: 5rem;
   font-weight: 300;
-  background-color: #fff476;
   border-radius: 50px; }
   .playButton__text {
+    background-color: #fff476;
+    border-radius: 50px;
+    color: white;
     text-align: center;
     display: block; }
 

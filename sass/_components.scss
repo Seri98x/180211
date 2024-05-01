@@ -114,11 +114,13 @@
 .playButton{
   font-size: 5rem;
   font-weight: 300;
-  background-color: #fff476;
   border-radius: 50px;
 
 
   &__text {
+    background-color: #fff476;
+    border-radius: 50px;
+    color: white;
     text-align: center;
     display: block;
   }
