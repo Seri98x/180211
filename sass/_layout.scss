@@ -17,7 +17,7 @@
     position: relative;
 
     &__blur{
-    background-image: url(/img/hero.png);
+    background-image: url(./img/hero.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -96,11 +96,11 @@
             position: absolute;
             height: 100%;
             width: 50vw;
-            background-image: url(/img/paper-title.png);
+            background-image: url(./img/paper-title.png);
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
-            shape-outside: url(/img/paper-title.png);
+            shape-outside: url(./img/paper-title.png);
             filter: drop-shadow(4px 4px 10px rgba(0,0,0,0.5));
         }
 
@@ -164,11 +164,11 @@
                position: absolute;
                height: 100%;
                width: 50vw;
-               background-image: url(/img/paper-title.png);
+               background-image: url(./img/paper-title.png);
                background-position: center;
                background-repeat: no-repeat;
                background-size: cover;
-               shape-outside: url(/img/paper-title.png);
+               shape-outside: url(./img/paper-title.png);
                filter: drop-shadow(4px 4px 10px rgba(0,0,0,0.5));
            }
 
@@ -221,11 +221,11 @@
                position: absolute;
                height: 100%;
                width: 50vw;
-               background-image: url(/img/paper-title.png);
+               background-image: url(./img/paper-title.png);
                background-position: center;
                background-repeat: no-repeat;
                background-size: cover;
-               shape-outside: url(/img/paper-title.png);
+               shape-outside: url(./img/paper-title.png);
                filter: drop-shadow(4px 4px 10px rgba(0,0,0,0.5));
            }
 
@@ -267,11 +267,11 @@
                position: absolute;
                height: 100%;
                width: 50vw;
-               background-image: url(/img/paper-title.png);
+               background-image: url(./img/paper-title.png);
                background-position: center;
                background-repeat: no-repeat;
                background-size: cover;
-               shape-outside: url(/img/paper-title.png);
+               shape-outside: url(./img/paper-title.png);
                filter: drop-shadow(4px 4px 10px rgba(0,0,0,0.5));
            }
 
